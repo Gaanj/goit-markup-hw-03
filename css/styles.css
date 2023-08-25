@@ -209,6 +209,7 @@ ul {
 .team-li {
   display: flex;
   justify-content: space-between;
+  gap: 24px;
 }
 .title-hll {
   margin-top: 0;
