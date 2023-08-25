@@ -3,8 +3,24 @@ body {
   color: #434455;
   background-color: #fff;
   text-decoration: none;
+  width: 1440px;
+}
+.page-header {
+  padding: 24px 0;
+  margin-bottom: 0;
+}
+.page-flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+.container {
+  width: 1158px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 15px;
 }
 .navigation {
+  display: flex;
   color: #2e2f42;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
@@ -12,6 +28,7 @@ body {
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.32px;
+  align-items: center;
 }
 .logol {
   color: #4d5ae5;
@@ -36,6 +53,15 @@ body {
 }
 ul {
   list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+.tabs-ul {
+  display: flex;
+  align-items: center;
+  margin-left: 76px;
+  column-gap: 40px;
 }
 .tabs {
   text-decoration: none;
@@ -47,13 +73,13 @@ ul {
 .tabs:focus {
   color: #404bbf;
 }
-.contact-src:hover {
+.contact-li:hover {
   color: #404bbf;
 }
-.contact-src:focus {
+.contact-li:focus {
   color: #404bbf;
 }
-.contact-src {
+.contact-li {
   font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -62,11 +88,22 @@ ul {
 }
 .contact {
   font-style: normal;
+  align-items: center;
 }
-.sectionl {
+.contact-ul {
+  display: flex;
+  column-gap: 40px;
+}
+.section-hero {
+  margin-top: 0;
   background-color: #2e2f42;
+  width: 1440px;
+  height: 600px;
+  flex-shrink: 0;
+  text-align: center;
 }
 .title-hl {
+  padding-top: 188px;
   color: var(--white, #fff);
   text-align: center;
   font-family: Roboto;
@@ -83,6 +120,10 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
+  display: inline-flex;
+  padding: 16px 32px;
+  align-items: flex-start;
+  gap: 10px;
 }
 .button-l:hover {
   background-color: #404bbf;
@@ -145,16 +186,18 @@ ul {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.pslv{
+.pslv {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
-  letter-spacing:  0.02em;
+  letter-spacing: 0.02em;
   text-align: center;
 }
 p {
   font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 h3 {
   font-size: 20px;
@@ -162,10 +205,10 @@ h3 {
 h2 {
   font-size: 36px;
 }
-.footer-set{
-background-color: #2e2f42;
+.footer-set {
+  background-color: #2e2f42;
 }
-.pf{
+.pf {
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
