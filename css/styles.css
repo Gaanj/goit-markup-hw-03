@@ -253,7 +253,8 @@ ul {
 }
 
 .section-lv {
-  padding-top: 120px;
+  padding-top: 120px; 
+  padding-bottom: 120px;
 }
 .portfolio-title {
   margin-top: 0;
@@ -290,7 +291,6 @@ ul {
   color: #2e2f42;
   margin-bottom: 8px;
   margin-top: 32px;
-  margin-bottom: 0;
 }
 .pslv {
   font-size: 16px;
