@@ -175,7 +175,8 @@ ul {
 .features {
   display: flex;
   justify-content: space-between;
-  column-gap: 24px;
+  gap: 24px;
+
 }
 .features-li {
   margin: 0;
