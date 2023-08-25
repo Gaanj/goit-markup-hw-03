@@ -5,6 +5,7 @@ body {
   text-decoration: none;
   width: 1440px;
 }
+img{display: block;}
 .page-header {
   padding: 24px 0;
   margin-bottom: 0;
