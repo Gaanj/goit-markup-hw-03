@@ -283,7 +283,6 @@ ul {
 flex-direction: column;
 justify-content: center;
 align-items: flex-start;
-gap: 8px;
 align-self: stretch; 
 }
 .tslv {
@@ -291,6 +290,7 @@ align-self: stretch;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .pslv {
   font-size: 16px;
