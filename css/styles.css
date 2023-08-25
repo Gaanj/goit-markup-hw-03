@@ -68,6 +68,8 @@ ul {
   display: flex;
   align-items: center;
   gap: 40px;
+    
+  padding: 24px 0;
 }
 .tabs {
   text-decoration: none;
@@ -99,7 +101,7 @@ ul {
 .contact-ul {
   display: flex;
   gap: 40px;
-  
+    
   padding: 24px 0;
 }
 .section-hero {
