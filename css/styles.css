@@ -5,9 +5,11 @@ body {
   text-decoration: none;
   width: 1440px;
 }
-img{display: block;}
+img {
+  display: block;
+}
 .page-header {
-    margin-bottom: 0;
+  margin-bottom: 0;
   border-bottom: 1px solid #e7e9fc;
 }
 .page-flex-container {
@@ -32,7 +34,7 @@ img{display: block;}
   align-items: center;
   margin-top: 0;
   margin-bottom: 0;
-  }
+}
 .logol {
   color: #4d5ae5;
   font-family: 'Raleway', sans-serif;
@@ -42,7 +44,7 @@ img{display: block;}
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
-  text-decoration: none;  
+  text-decoration: none;
   margin-top: 16px;
   margin-bottom: 16px;
   display: inline-block;
@@ -68,7 +70,6 @@ ul {
   padding-left: 0;
 }
 .tabs-ul {
-
   display: flex;
   align-items: center;
   gap: 40px;
@@ -115,18 +116,22 @@ ul {
   height: 600px;
   flex-shrink: 0;
   text-align: center;
+  padding: 188px 0;
 }
 .title-hl {
-  padding-top: 188px;
-  color: var(--white, #fff);
+  color: #fff;
   text-align: center;
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 1.12px;
-  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 496px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 .button-l {
   margin-top: 48px;
@@ -137,6 +142,13 @@ ul {
   letter-spacing: 0.04em;
   color: #ffffff;
   padding: 16px 32px;
+  display: block;
+  min-width: 169px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
 }
 .button-l:hover {
   background-color: #404bbf;
