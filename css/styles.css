@@ -7,7 +7,7 @@ body {
 }
 img{display: block;}
 .page-header {
-  padding: 24px 0;
+  
   margin-bottom: 0;
   border-bottom: 1px solid #e7e9fc;
 }
@@ -45,13 +45,14 @@ img{display: block;}
   margin-top: 0;
   margin-bottom: 16px;
   display: inline-block;
+  padding: 24px 0;
 }
 .logoll {
   color: #2e2f42;
   text-decoration: none;
   margin-top: 0;
   margin-bottom: 0;
-  margin-right: 76px
+  margin-right: 76px;
 }
 .logolll {
   color: #f4f4fd;
