@@ -46,13 +46,14 @@ img{display: block;}
   margin-bottom: 16px;
   display: inline-block;
   padding: 24px 0;
+
+  margin-right: 76px;
 }
 .logoll {
   color: #2e2f42;
   text-decoration: none;
   margin-top: 0;
   margin-bottom: 0;
-  margin-right: 76px;
 }
 .logolll {
   color: #f4f4fd;
