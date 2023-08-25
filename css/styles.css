@@ -9,6 +9,7 @@ img{display: block;}
 .page-header {
   padding: 24px 0;
   margin-bottom: 0;
+  border-bottom: 1px solid #e7e9fc;
 }
 .page-flex-container {
   display: flex;
@@ -50,6 +51,7 @@ img{display: block;}
   text-decoration: none;
   margin-top: 0;
   margin-bottom: 0;
+  margin-right: 76px
 }
 .logolll {
   color: #f4f4fd;
@@ -66,8 +68,7 @@ ul {
 .tabs-ul {
   display: flex;
   align-items: center;
-  margin-left: 76px;
-  column-gap: 40px;
+  gap: 40px;
 }
 .tabs {
   text-decoration: none;
